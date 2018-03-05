@@ -8,7 +8,7 @@ Google Cloud Functions Hello World example with Babel and Bunyan logging library
 ## Function Code
 See file [index.es7](index.es7) for the Hello World function code. It uses some syntax that is not supported natively by Cloud Functions (import). The code will be transpilled to the supported node runtime (v6.11.5) in Cloud functions using [BabelJS](https://babeljs.io/) CLI.
 
-See the [functions/package.json](functions/package.json) file for the `prepare` script which runs the transpilation step.
+See the [package.json](package.json) file for the `prepare` script which runs the transpilation step.
 
 ## Deploy
 1. Clone or download this repo and open the `cloud-function-babel-example`
