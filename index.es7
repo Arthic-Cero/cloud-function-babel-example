@@ -3,7 +3,7 @@ import bunyan from "bunyan";
 // Imports the Google Cloud client library for Bunyan
 import LoggingBunyan from "@google-cloud/logging-bunyan";
 
-exports.jelou = (req, res) => {
+exports.helloWorldFun = (req, res) => {
 
   // Creates a Bunyan Stackdriver Logging client
   const loggingBunyan = new LoggingBunyan();
